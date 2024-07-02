@@ -58,6 +58,106 @@ print(1>2)
 print(7>=3)
 print(10>=10)
 
+#podemos hacer operaciones relacionales en string inclusive 
+
+print("hola" =="hola")
+
+b = "hola"
+print(b[0] == "h")
+#en este caso fue si la variable "b" indicando el indice [0] es igual a "h"
+
+print(b[1] == "o")
+
+print(10>= 2*4)
+print(33/3 == 11)
+
+print(True*5)
+
+#_____operadores logicos
+# NOT es la negacion , NO . Solo afecta a los tipos logicos TRUE Y FALSE , y solo requiere un oeprando en una expresion 
+#
+print(not True == False)
+
+
+#Conjunción y Disyunción
+#Conjunción viene de conjunto, agrupa uniendo
+#Disyunción viene de disyunto, agrupa separando.
+
+#AND  es conocido como el Y
+#Va a unir una o varias sentencias logicas.
+#Verdadero Y Verdadero
+
+print ( 2> 1 and 5 > 2) 
+print( 5> 25 and 20<1)
+
+
+#True AND True - True
+#True AND False - False
+#False AND False - False
+#False and True - False
+
+#OR es O en ingles.
+#Es Disyunción (separa)
+# Si le pregunto a python por dos afirmaciones y al menos una es TRUE, python me va a decir que la afirmación es TRUE
+
+print(2>1 or 5>2)
+print(5<20 or 20<1)
+
+# True o True - True
+# True o False - True 
+# False o True - True
+# False o False - False 
+
+
+
+
+#Ejercicio Mental Expresiones
+# not False - verdadero
+# not 3 == 5 - verdadero
+# 33 /3 == 11 and 5>2 - verdadero
+#True or False - verdadero
+# True*5 == 2.5*2 or 123>= 23 - verdadero
+# 12> 7 and True < False - falso
+
+#normas de precedencia 
+#1. TERMINOS ENTRE PARENTESIS 
+#2. POTENCIACION Y RAICES 
+#3. MULTIPLICACION Y DIVISION 
+#4. SUMA Y RESTA 
+ 
+d = 15
+e = 12
+print(d**e / 3 **e /e *d >= 15 and not (d%e **2) != 0)
+
+nuemero = 15
+a = 0
+a +=1
+print(a)
+
+b = 50
+b -=5
+print(b)
+
+c = 5
+c *=10
+c *=10
+c *=10
+c *=10
+
+print(c)
+
+# operador      ejemplo       equivalente 
+# =              a = 2         a = 2
+# +=             a += 2        a = a + 2
+# -=             a -= 2        a = a - 2
+# *=             a *= 2        a = a * 2
+# /=             a /= 2        a = a / 2
+# %=             a %= 2        a = a % 2
+# **=            a **= 2       a = a ** 2
+
+
+
+
 
 
 
