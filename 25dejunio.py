@@ -145,3 +145,4 @@ print(otra_tupla.count(1))
 
 
 
+
